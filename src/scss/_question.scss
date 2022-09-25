@@ -1,0 +1,104 @@
+.question {
+}
+
+.question__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  max-width: 1139px;
+  min-height: 83px;
+  background-color: $yellowColor;
+  margin: 0 auto;
+  @media (max-width: $breakpoint768) {
+    font-size: 28px;
+    padding: 10px 15px;
+  }
+  @media (max-width: 520px) {
+    font-size: 24px;
+  }
+  @media (max-width: $breakpoint480) {
+    font-size: 22px;
+    padding: 10px 10px;
+  }
+}
+
+.question__list-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+  max-width: 1140px;
+  width: 100%;
+  align-items: center;
+  margin-top: 100px;
+  @media (max-width: $breakpoint992) {
+    margin-top: 70px;
+  }
+  @media (max-width: $breakpoint768) {
+    margin-top: 50px;
+  }
+  @media (max-width: $breakpoint480) {
+    gap: 15px;
+  }
+}
+
+.question__list-item {
+  padding: 26px 84px 26px 74px;
+  background: $whiteColor;
+  border: 2px solid $yellowColor;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  .open {
+    position: absolute;
+    left: calc(100% - 64px);
+    top: 50%;
+    width: 38px;
+    height: 38px;
+    background-color: transparent;
+    transform: translateY(-50%);
+  }
+  @media (max-width: $breakpoint992) {
+    padding: 20px 64px 20px 44px;
+  }
+  @media (max-width: $breakpoint768) {
+    padding-left: 24px;
+    svg,
+    .open {
+      width: 30px;
+      height: 30px;
+    }
+    .open {
+      left: calc(100% - 50px);
+    }
+  }
+  @media (max-width: $breakpoint480) {
+    padding: 15px 54px 15px 19px;
+    .open {
+      left: calc(100% - 46px);
+    }
+  }
+}
+
+.question__list-item-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 112.2%;
+  color: $blackColor;
+  @media (max-width: $breakpoint992) {
+    font-size: 18px;
+  }
+  @media (max-width: $breakpoint768) {
+    font-size: 16px;
+  }
+}

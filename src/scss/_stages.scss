@@ -1,0 +1,80 @@
+.stages {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  @media (max-width: $breakpoint992) {
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+}
+
+.stages__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  max-width: 1139px;
+  min-height: 83px;
+  background-color: $yellowColor;
+  margin: 0 auto;
+  @media (max-width: $breakpoint768) {
+    font-size: 28px;
+    padding: 10px 15px;
+  }
+  @media (max-width: 520px) {
+    font-size: 24px;
+  }
+  @media (max-width: $breakpoint480) {
+    font-size: 22px;
+    padding: 10px 10px;
+  }
+}
+
+.stages__progress {
+  margin-top: 100px;
+}
+
+.stages__progress-bar {
+}
+
+.stages__progress-success {
+}
+
+.stages__progress-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.stages__progress-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stages__progress-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  border: 2px solid #e5e4e1;
+  border-radius: 50px;
+  z-index: -1;
+}
+
+.stages__progress-text {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: $blackColor;
+}
