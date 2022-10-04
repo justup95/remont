@@ -187,6 +187,9 @@
   }
   @media (max-width: $breakpoint480) {
     margin: 0 auto;
+    &.sale {
+      justify-content: center;
+    }
   }
 }
 

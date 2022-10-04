@@ -136,34 +136,30 @@ btn.onclick = function () {
 window.onscroll = magic
 
 
-
-// Для мобильных
-
-// $(window).scroll(function (event) {
-//   var top = $(window).scrollTop();
-//    if(top >= 20){
-//    //show btn
-//    } else {
-//    //hide btn
-//    }
-// });
-
-
 // Аккордеон
 function accordion() {
   const items = document.querySelectorAll('.accordion__item-trigger')
   items.forEach(item => {
-      item.addEventListener('click', () => {
-          const parent = item.parentNode
-          if (parent.classList.contains('accordion__item-active')) {
-              parent.classList.remove('accordion__item-active')
-          } else {
-              document
-                  .querySelectorAll('.accordion__item')
-                  .forEach(child => child.classList.remove('accordion__item-active'))   
-              parent.classList.add('accordion__item-active')
-          }
-      })
+    item.addEventListener('click', () => {
+      const parent = item.parentNode
+      if (parent.classList.contains('accordion__item-active')) {
+        parent.classList.remove('accordion__item-active')
+      } else {
+        document
+          .querySelectorAll('.accordion__item')
+          .forEach(child => child.classList.remove('accordion__item-active'))
+        parent.classList.add('accordion__item-active')
+      }
+    })
   })
 }
-accordion() 
+accordion()
+
+
+const portfolio__hiddenBtn = document.querySelector('.portfolio__hidden-btn');
+const portfolioHidden = document.querySelector('.portfolio__hidden');
+
+portfolio__hiddenBtn.addEventListener('click', () => {
+  portfolioHidden.classList.toggle('portfolio__hidden');
+  portfolioHidden.classList.toggle('portfolio__visible');
+});
