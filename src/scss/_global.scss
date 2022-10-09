@@ -61,6 +61,10 @@ body {
   }
 }
 
+.menu__btn-mob.btn.modal__btn {
+  width: 200px;
+}
+
 .title {
   font-style: normal;
   font-weight: 700;
@@ -117,7 +121,7 @@ body {
   &::before {
     content: "";
     position: absolute;
-    left: -14;
+    // left: -14;
     background: #fbd823;
     border-radius: 21px 0px 0px 0px;
     width: 258px;
@@ -166,7 +170,8 @@ body {
   left: -22px;
 }
 
-.shake {
+.shake,
+.modal__sale {
   transform: translate3d(0, 0, 0);
   -webkit-animation-name: shake;
   animation-name: shake;
@@ -229,5 +234,174 @@ body {
   100% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+@keyframes progress-bar {
+  0% {
+    // transition: all .3s ease;
+    width: 0%;
+    // &.one {
+    //   background-color: $redColor;
+    //   color: $whiteColor;
+    //   border: 2px solid $redColor;
+    // }
+  }
+
+  20% {
+    // transition: all .3s ease;
+    width: 20%;
+    // &.two {
+    //   background-color: $redColor;
+    //   color: $whiteColor;
+    //   border: 2px solid $redColor;
+    // }
+  }
+
+  40% {
+    // transition: all .3s ease;
+    width: 44%;
+    // &.thee {
+    //   background-color: $redColor;
+    //   color: $whiteColor;
+    //   border: 2px solid $redColor;
+    // }
+  }
+
+  60% {
+    // transition: all .3s ease;
+    width: 65%;
+    // .four {
+    //   background-color: $redColor;
+    //   color: $whiteColor;
+    //   border: 2px solid $redColor;
+    // }
+  }
+
+  80% {
+    // transition: all .3s ease;
+    width: 87%;
+    // .five {
+    //   background-color: $redColor;
+    //   color: $whiteColor;
+    //   border: 2px solid $redColor;
+    // }
+  }
+
+  // 100% {
+  //   // transition: all .3s ease;
+  //   // -webkit-transform: translateX(-3px) rotate(-2deg);
+  //   // transform: translateX(-3px) rotate(-2deg);
+  //   width: 87%;
+  // }
+}
+
+// @keyframes numbers {
+//   0% {
+//     .one {
+//       background-color: orange;
+//       color: $whiteColor;
+//       border: 2px solid $redColor;
+//     }
+//     .two,
+//     .three,
+//     .four,
+//     .five {
+//       color: #000000;
+//       background: #ffffff;
+//       border: 2px solid #e5e4e1;
+//     }
+//   }
+
+//   20% {
+//     .two {
+//       background-color: orange;
+//       color: $whiteColor;
+//       border: 2px solid $redColor;
+//     }
+//   }
+
+//   40% {
+//     .thee {
+//       background-color: orange;
+//       color: $whiteColor;
+//       border: 2px solid $redColor;
+//     }
+//   }
+
+//   60% {
+//     .four {
+//       background-color: orange;
+//       color: $whiteColor;
+//       border: 2px solid $redColor;
+//     }
+//   }
+
+//   80% {
+//     .five {
+//       background-color: orange;
+//       color: $whiteColor;
+//       border: 2px solid $redColor;
+//     }
+//   }
+// }
+
+@keyframes one {
+  20% {
+    background-color: $redColor;
+    color: $whiteColor;
+    border: 2px solid $redColor;
+  }
+  100% {
+    background-color: $redColor;
+    color: $whiteColor;
+    border: 2px solid $redColor;
+  }
+}
+
+@keyframes two {
+  40% {
+    background-color: $redColor;
+    color: $whiteColor;
+    border: 2px solid $redColor;
+  }
+  100% {
+    background-color: $redColor;
+    color: $whiteColor;
+    border: 2px solid $redColor;
+  }
+}
+
+@keyframes three {
+  60% {
+    background-color: $redColor;
+    color: $whiteColor;
+    border: 2px solid $redColor;
+  }
+  100% {
+    background-color: $redColor;
+    color: $whiteColor;
+    border: 2px solid $redColor;
+  }
+}
+
+@keyframes four {
+  80% {
+    background-color: $redColor;
+    color: $whiteColor;
+    border: 2px solid $redColor;
+  }
+  100% {
+    background-color: $redColor;
+    color: $whiteColor;
+    border: 2px solid $redColor;
+  }
+}
+
+@keyframes five {
+  100% {
+    background-color: $redColor;
+    color: $whiteColor;
+    border: 2px solid $redColor;
   }
 }

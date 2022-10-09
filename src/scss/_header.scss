@@ -98,6 +98,14 @@ nav {
   width: 150px;
 }
 
+.menu__btns-mob-wrap,
+.menu__socials-mob-wrap {
+  display: none;
+  @media (max-width: $breakpoint768) {
+    display: inline;
+  }
+}
+
 .menu__btns-mob {
   display: none;
   @media (max-width: $breakpoint768) {

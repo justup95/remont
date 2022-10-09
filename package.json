@@ -22,5 +22,8 @@
     "gulp-sass": "^5.0.0",
     "gulp-uglify-es": "^3.0.0",
     "sass": "^1.43.5"
+  },
+  "dependencies": {
+    "simplelightbox": "^2.10.3"
   }
 }
