@@ -162,7 +162,7 @@ body.locked {
   position: absolute;
   background: #fbd823;
   border-radius: 21px 0px 0px 0px;
-  width: 258px;
+  width: 250px;
   height: 28px;
   z-index: -1;
 }
@@ -1937,7 +1937,6 @@ nav {
 
   .sale::before {
     border-radius: 0;
-    width: 260px;
   }
 
   .sale .prices__sale {

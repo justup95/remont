@@ -124,7 +124,7 @@ body {
     // left: -14;
     background: #fbd823;
     border-radius: 21px 0px 0px 0px;
-    width: 258px;
+    width: 250px;
     height: 28px;
     z-index: -1;
   }
@@ -146,7 +146,7 @@ body {
     }
     &::before {
       border-radius: 0;
-      width: 260px;
+      // width: 260px;
     }
     .prices__sale {
       font-size: 14px;
