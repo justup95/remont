@@ -191,8 +191,8 @@ body.locked {
           transform: translate3d(0, 0, 0);
   -webkit-animation-name: shake;
   animation-name: shake;
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
