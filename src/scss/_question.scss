@@ -96,6 +96,11 @@
   }
 }
 
+.question__list-item:hover .open {
+  opacity: 0.5;
+  transition: all .3s ease;
+}
+
 .question__list-item-text {
   font-weight: 400;
   font-size: 24px;

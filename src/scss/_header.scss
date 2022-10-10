@@ -19,6 +19,10 @@
   font-size: 16px;
   line-height: 19px;
   color: $blackColor;
+  &:hover {
+    opacity: 0.5;
+    transition: all .3s ease;
+  }
 }
 
 // Header
@@ -95,7 +99,11 @@ nav {
   column-gap: 15px;
   row-gap: 6px;
   flex-shrink: 1;
-  width: 150px;
+  width: 192px;
+  a:hover {
+    opacity: 0.5;
+    transition: all .3s ease;
+  }
 }
 
 .menu__btns-mob-wrap,
@@ -121,7 +129,7 @@ nav {
       flex-shrink: 1;
       flex-wrap: wrap;
       gap: 20px;
-      width: 170px;
+      width: 220px;
       margin-top: 25px;
       a {
         font-style: normal;
@@ -129,6 +137,10 @@ nav {
         font-size: 16px;
         line-height: 19px;
         color: $whiteColor;
+        &:hover {
+          opacity: 0.5;
+          transition: all .3s ease;
+        }
       }
       path {
         fill: #ffffff;
@@ -157,6 +169,20 @@ nav {
     }
     @media (max-width: $breakpoint992) {
       display: block;
+    }
+  }
+}
+
+.menu__social-tel,
+.menu__social-mob-tel {
+  width: 100%;
+  align-items: center;
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      font-family: "Inter", sans-serif;
     }
   }
 }

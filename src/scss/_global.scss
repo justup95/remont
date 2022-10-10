@@ -22,6 +22,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 // Body Locked
 body {
   font-family: "Inter", sans-serif;
@@ -216,6 +220,10 @@ body {
   z-index: 33;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  &:hover path {
+    fill: #ffffff;
+    transition: all 0.3s ease;
+  }
 }
 
 // Animations

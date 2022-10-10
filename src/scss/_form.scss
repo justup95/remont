@@ -98,5 +98,8 @@
   a {
     color: $blackColor;
     text-decoration: underline;
+    &:hover {
+      opacity: 0.5;
+    }
   }
 }
