@@ -130,6 +130,11 @@
 }
 
 .play {
+  display: none;
+}
+
+.portfolio__gallery-item a[href^="https://www.youtube.com"] .play {
+  display: block;
   position: absolute;
   top: 50%;
   left: 50%;
