@@ -107,11 +107,9 @@
 
 .modal__btn-submit {
   width: 100%;
-  @media (max-width: $breakpoint768) {
-    &.btn {
+  @media (max-width: $breakpoint768)  {
       width: 100%;
     }
-  }
 }
 
 .modal__text,

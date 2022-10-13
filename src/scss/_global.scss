@@ -36,7 +36,9 @@ body {
 }
 
 .btn,
-.portfolio__hidden-btn {
+.portfolio__hidden-btn,
+.form__btn,
+.modal__btn-submit {
   display: flex;
   justify-content: center;
   align-items: center;

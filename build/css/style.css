@@ -89,7 +89,9 @@ body.locked {
 }
 
 .btn,
-.portfolio__hidden-btn {
+.portfolio__hidden-btn,
+.form__btn,
+.modal__btn-submit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,7 +114,9 @@ body.locked {
 }
 
 .btn:hover,
-.portfolio__hidden-btn:hover {
+.portfolio__hidden-btn:hover,
+.form__btn:hover,
+.modal__btn-submit:hover {
   background-color: #d23c34;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -1990,7 +1994,9 @@ nav {
   }
 
   .btn,
-  .portfolio__hidden-btn {
+  .portfolio__hidden-btn,
+  .form__btn,
+  .modal__btn-submit {
     width: 50%;
   }
 
@@ -2282,7 +2288,7 @@ nav {
     gap: 15px;
   }
 
-  .modal__btn-submit.btn {
+  .modal__btn-submit {
     width: 100%;
   }
 }
@@ -2326,7 +2332,9 @@ nav {
   }
 
   .btn,
-  .portfolio__hidden-btn {
+  .portfolio__hidden-btn,
+  .form__btn,
+  .modal__btn-submit {
     width: 100%;
   }
 
